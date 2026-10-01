@@ -1,0 +1,31 @@
+{
+  "name": "owm-maps-sdk-example-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@openweather/maps-maplibre": "^0.1.0",
+    "@openweather/maps-react": "^0.1.0",
+    "maplibre-gl": "^5.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^6.0.2",
+    "vite": "^7.3.6"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openweathermap/owm-maps-sdk-examples.git",
+    "directory": "react"
+  }
+}
